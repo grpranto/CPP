@@ -61,7 +61,7 @@ int main()
         <<"\t\t********************************"<<endl
         <<endl<<endl;
 	lli n, i;
-	FILE *p = fopen("input.txt","r");
+	FILE *p = fopen("MaximumSumIntervalInput.txt","r");
 	fscanf(p,"%I64d",&n);
 	//cout<<n<<endl;
 	for(i=0;i<n;i++)
